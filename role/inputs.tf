@@ -130,7 +130,9 @@ variable "default-readonly-policy" {
       ],
       "Resource": "*"
     }
-  POLICY
+  
+POLICY
+
 }
 
 variable "default-reservation-policy" {
@@ -142,7 +144,9 @@ variable "default-reservation-policy" {
       ],
       "Resource": "*"
     }
-  POLICY
+  
+POLICY
+
 }
 
 variable "default-actions-policy" {
@@ -161,5 +165,8 @@ variable "default-actions-policy" {
       ],
       "Resource": "*"
     }
-  POLICY
+  
+POLICY
+
 }
+
