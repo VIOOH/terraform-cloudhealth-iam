@@ -43,9 +43,13 @@ variable "default-readonly-policy" {
     {
       "Effect": "Allow",
       "Action": [
-        "aws-portal:ViewBilling",
-        "aws-portal:ViewUsage",
         "autoscaling:Describe*",
+        "account:Get*",
+        "account:List*",
+        "billing:Get*",
+        "billing:List*",
+        "consolidatedbilling:Get*",
+        "consolidatedbilling:List*",
         "cloudformation:ListStacks",
         "cloudformation:ListStackResources",
         "cloudformation:DescribeStacks",
@@ -65,6 +69,7 @@ variable "default-readonly-policy" {
         "config:Deliver*",
         "config:List*",
         "cur:Describe*",
+        "cur:Get*",
         "cur:PutReportDefinition",
         "dms:Describe*",
         "dms:List*",
